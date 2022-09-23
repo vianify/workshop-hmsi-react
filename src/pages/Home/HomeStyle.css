@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  margin-top: 50px;
+  width: 120px;
+  height: 120px;
+}
+.nama {
+  font-size: 1.5em;
+}
+
+.formContainer {
+  background-color: #1667B6;
+  width: 40%;
+  padding: 20px;
+  height: 150px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+.formPesan {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  padding: 16px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.btnKirim {
+    background-color:#1667B6;
+    color: #fff;
+    border:none; 
+    border-radius:8px; 
+    padding:8px;
+    min-width: 150px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.btnKirim:hover {
+  background-color: #3f78b1;
+}
+.linkLihatPesan {
+  text-decoration: none;
+}

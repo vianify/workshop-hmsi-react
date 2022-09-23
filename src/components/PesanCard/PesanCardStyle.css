@@ -1,0 +1,23 @@
+.pesanCardContainer {
+  margin: 16px 24px;
+  padding: 1.6rem .8rem;
+  background-color: #FFFFFF;
+  border-radius: 0.8rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 0.8rem 2.4rem;
+}
+
+
+.btnHapus {
+  background-color:#d9534f;
+  color: #fff;
+  border:none; 
+  border-radius:8px; 
+  padding:8px;
+  width: 100%;
+  margin-top: 16px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.btnHapus:hover {
+  background-color: #dd7a77;
+}
