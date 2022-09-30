@@ -26,7 +26,7 @@ const Pesan = () => {
         className="image"
         src="http://itk-hmsi.ac.id/app-assets/images/logo/deret-4.png"
       />
-      <h1 className="nama">Himpunan Mahasiswa Sistem Informasi</h1>
+      <h1 className="nama">KPP Website</h1>
       <p>List pesan</p>
       <div className="cardContainer">
         {data &&

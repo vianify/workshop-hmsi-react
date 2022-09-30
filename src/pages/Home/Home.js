@@ -19,12 +19,12 @@ const Home = () => {
         className="image"
         src="http://itk-hmsi.ac.id/app-assets/images/logo/deret-4.png"
       />
-      <h1 className="nama">Himpunan Mahasiswa Sistem Informasi</h1>
-      <p>Send me anonymous message</p>
+      <h1 className="nama">KPP Website</h1>
+      <p>Kirim pesan apa aja</p>
       <div className="formContainer">
         <textarea
           className="formPesan"
-          placeholder="Ketikkan pesanmu"
+          placeholder="Ketik sesuatu"
           value={pesan}
           onChange={(input) => setPesan(input.target.value)}
         ></textarea>
